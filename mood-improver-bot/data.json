@@ -1,0 +1,106 @@
+{
+  "moods": {
+    "happy": {
+      "name": "Happy",
+      "emoji": "😊",
+      "color": "from-yellow-400 to-pink-400",
+      "songs": [
+        {"title":"Happy - Pharrell Williams","artist":"Pharrell Williams","url":"https://www.youtube.com/watch?v=ZbZSe6N_BXs"},
+        {"title":"Best Day Of My Life","artist":"American Authors","url":"https://www.youtube.com/watch?v=Y66j_BUCBMY"},
+        {"title":"Walking on Sunshine","artist":"Katrina & The Waves","url":"https://www.youtube.com/watch?v=iPUmE-tne5U"},
+        {"title":"Good as Hell","artist":"Lizzo","url":"https://www.youtube.com/watch?v=PsO6ZnUZI0g"},
+        {"title":"Can't Stop the Feeling!","artist":"Justin Timberlake","url":"https://www.youtube.com/watch?v=ru0K8uYEZWw"}
+      ],
+      "quotes": [
+        "Happiness is a direction, not a place.",
+        "Do more of what makes you happy.",
+        "The purpose of our lives is to be happy."
+      ]
+    },
+    "sad": {
+      "name": "Sad",
+      "emoji": "😢",
+      "color": "from-blue-500 to-indigo-600",
+      "songs": [
+        {"title":"Someone Like You","artist":"Adele","url":"https://www.youtube.com/watch?v=hLQl3WQQoQ0"},
+        {"title":"The Night We Met","artist":"Lord Huron","url":"https://www.youtube.com/watch?v=KtlgYxa6BMU"},
+        {"title":"Fix You","artist":"Coldplay","url":"https://www.youtube.com/watch?v=k4V3Mo61fJM"},
+        {"title":"Skinny Love","artist":"Bon Iver","url":"https://www.youtube.com/watch?v=ssdgFoHLwnk"},
+        {"title":"Liability","artist":"Lorde","url":"https://www.youtube.com/watch?v=6b4m8Ki9mL8"}
+      ],
+      "quotes": [
+        "This too shall pass.",
+        "Tears are words the heart can't express.",
+        "The wound is the place where the Light enters you."
+      ]
+    },
+    "angry": {
+      "name": "Angry",
+      "emoji": "😠",
+      "color": "from-red-400 to-yellow-500",
+      "songs": [
+        {"title":"Break Stuff","artist":"Limp Bizkit","url":"https://www.youtube.com/watch?v=ZpUYjpKg9KY"},
+        {"title":"Killing in the Name","artist":"Rage Against The Machine","url":"https://www.youtube.com/watch?v=bWXazVhlyxQ"},
+        {"title":"Bulls on Parade","artist":"Rage Against The Machine","url":"https://www.youtube.com/watch?v=3L4YrGaR8E4"},
+        {"title":"You Oughta Know","artist":"Alanis Morissette","url":"https://www.youtube.com/watch?v=NPcyTyilmYY"},
+        {"title":"Given Up","artist":"Linkin Park","url":"https://www.youtube.com/watch?v=Q3oItpVa9fs"}
+      ],
+      "quotes": [
+        "Speak when you are angry — and you'll make the best speech you'll ever regret.",
+        "For every minute you remain angry, you give up sixty seconds of peace.",
+        "Anger is an acid that can do more harm to the vessel in which it is stored than to anything on which it is poured."
+      ]
+    },
+    "anxious": {
+      "name": "Anxious",
+      "emoji": "😰",
+      "color": "from-indigo-500 to-teal-400",
+      "songs": [
+        {"title":"Breathe Me","artist":"Sia","url":"https://www.youtube.com/watch?v=hSH7fblcGWM"},
+        {"title":"Holocene","artist":"Bon Iver","url":"https://www.youtube.com/watch?v=TWcyIpul8OE"},
+        {"title":"River","artist":"Leon Bridges","url":"https://www.youtube.com/watch?v=we2fV4l8QGU"},
+        {"title":"Skinny Love","artist":"Birdy","url":"https://www.youtube.com/watch?v=aNzCDt2eidg"},
+        {"title":"Motion Picture Soundtrack","artist":"Radiohead","url":"https://www.youtube.com/watch?v=QhG8Sj2I10I"}
+      ],
+      "quotes": [
+        "You don't have to control your thoughts. You just have to stop letting them control you.",
+        "Do the thing you fear and the death of fear is certain.",
+        "This moment is a new beginning."
+      ]
+    },
+    "motivated": {
+      "name": "Motivated",
+      "emoji": "💪",
+      "color": "from-green-400 to-blue-500",
+      "songs": [
+        {"title":"Lose Yourself","artist":"Eminem","url":"https://www.youtube.com/watch?v=_Yhyp-_hX2s"},
+        {"title":"Stronger","artist":"Kanye West","url":"https://www.youtube.com/watch?v=PsO6ZnUZI0g"},
+        {"title":"Hall of Fame","artist":"The Script","url":"https://www.youtube.com/watch?v=mk48xRzuNvA"},
+        {"title":"Eye of the Tiger","artist":"Survivor","url":"https://www.youtube.com/watch?v=btPJPFnesV4"},
+        {"title":"Don't Stop Me Now","artist":"Queen","url":"https://www.youtube.com/watch?v=HgzGwKwLmgM"}
+      ],
+      "quotes": [
+        "Start where you are. Use what you have. Do what you can.",
+        "The secret of getting ahead is getting started.",
+        "Dream big and dare to fail."
+      ]
+    },
+    "relaxed": {
+      "name": "Relaxed",
+      "emoji": "😌",
+      "color": "from-purple-400 to-blue-400",
+      "songs": [
+        {"title":"Weightless","artist":"Marconi Union","url":"https://www.youtube.com/watch?v=UfcAVejslrU"},
+        {"title":"Sunset Lover","artist":"Petit Biscuit","url":"https://www.youtube.com/watch?v=9q7CkL2R8Tw"},
+        {"title":"Night Owl","artist":"Galimatias","url":"https://www.youtube.com/watch?v=JwYX52BP2Sk"},
+        {"title":"Nara","artist":"alt-J","url":"https://www.youtube.com/watch?v=3WWwQXZ1YdQ"},
+        {"title":"Sea of Love","artist":"Cat Power","url":"https://www.youtube.com/watch?v=Z2xZVxj6Zc8"}
+      ],
+      "quotes": [
+        "Your calm mind is the ultimate weapon against your challenges.",
+        "Within you, there is a stillness and a sanctuary to which you can retreat at any time.",
+        "Peace begins with a smile."
+      ]
+    }
+  }
+}

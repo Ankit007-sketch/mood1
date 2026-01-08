@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mood Improver Bot</title>
+  <meta name="description" content="Mood Improver Bot — music, quotes and calm for every mood" />
+  <meta property="og:title" content="Mood Improver Bot" />
+  <meta property="og:description" content="Music & quotes to lift or calm your mood — pick a mood and feel better." />
+  <meta property="og:image" content="og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="og-image.svg" />
+  <meta name="theme-color" content="#6b21a8" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="manifest" href="manifest.json">
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+  <link rel="stylesheet" href="styles.min.css">
+</head>
+<body>
+  <div class="app">
+    <div class="container">
+      <div class="hero glass">
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="title">Mood Improver Bot</h1>
+            <p class="subtitle">Choose a mood and get music, quotes & calm — instantly.</p>
+          </div>
+          <div class="controls">
+            <div class="chip" id="lastMoodChip">Remembered: —</div>
+            <button id="themeToggle" class="chip" aria-label="Toggle theme">🌙</button>
+          </div>
+        </div>
+
+        <div class="mood-grid" id="moodGrid" aria-label="Mood selector"></div>
+
+        <div class="section glass" id="contentArea" style="display:none">
+          <div class="flex items-center justify-between">
+            <div>
+              <h2 id="selectedMoodTitle" class="text-xl font-semibold"></h2>
+              <p id="selectedMoodSubtitle" class="text-sm opacity-90"></p>
+            </div>
+            <div class="controls">
+              <button id="shareBtn" class="chip">Share</button>
+              <button id="resetBtn" class="chip">Reset</button>
+            </div>
+          </div>
+
+          <div class="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div class="glass section">
+              <h3 class="font-semibold">Recommended Music</h3>
+              <div id="songs" class="song-list mt-3"></div>
+            </div>
+
+            <div class="glass section">
+              <h3 class="font-semibold">Quotes</h3>
+              <div class="quotes-wrap mt-3">
+                <div id="quoteText" class="quote"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for player -->
+  <div id="modal" class="modal" style="display:none">
+    <div class="box">
+      <button id="closeModal" class="close-x">✕</button>
+      <div id="playerWrap" style="position:relative;padding-top:56.25%">
+        <iframe id="playerFrame" src="" frameborder="0" allow="autoplay; encrypted-media" style="position:absolute;inset:0;width:100%;height:100%;border-radius:8px"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.min.js" defer></script>
+</body>
+</html>
